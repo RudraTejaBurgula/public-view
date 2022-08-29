@@ -1,0 +1,12 @@
+.center {
+    width: 70%;
+    padding: 10px;
+    align-items: center;
+    border-top-width: 5px;
+    display: flex;
+    max-width: fit-content;
+    max-height: fit-content;
+  }
+.outer{
+  margin-top: 50px;
+}

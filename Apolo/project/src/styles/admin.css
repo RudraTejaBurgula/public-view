@@ -1,0 +1,31 @@
+.addbutton {
+    border: none;
+    background-color: transparent;
+}
+
+.table {
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+table,
+tr,
+td {
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tbody {
+    background-color: transparent;
+}
+
+.edit,
+.delete {
+    border: none;
+    padding: 5px;
+    margin: 10px;
+}

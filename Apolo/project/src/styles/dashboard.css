@@ -1,0 +1,76 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* .center,
+select {
+  width: 70%;
+  padding: 10px;
+  align-items: center;
+  border-top-width: 5px;
+  display: flex;
+  max-width: fit-content;
+  max-height: fit-content;
+} */
+
+select,
+.DatePicker {
+  appearance: none;
+  /*  to disable the arrow marks */
+
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+
+/* select::-ms-expand {
+  display: none;
+} */
+
+/* select, {
+  outline: none;
+} */
+
+.select,
+.DatePicker {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type=text],
+select,
+.DatePicker {
+  width: 100%;
+  padding: 12px 30px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.DatePicker {
+  background-color: transparent;
+}
+
+table{
+  border:none;
+  border-style: none;
+  border-collapse: none;
+  
+  /* cellspacing: cellpadding="0" */
+}
+
+#logout{
+  text-align-last: right;
+  /* text-align: right; */
+}
